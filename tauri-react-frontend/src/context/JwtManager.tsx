@@ -24,7 +24,9 @@ export const JwtProvider = ({ children }: { children: ReactNode }) => {
         email,
         password,
       });
-      setToken(response.data.token);
+      const token = response.data.token;
+      console.log('JWT Token:', token);
+      setToken(token);
     } catch (err) {
       setError('Failed to login');
     } finally {

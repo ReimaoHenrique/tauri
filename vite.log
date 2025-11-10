@@ -1,5 +1,3 @@
 
-> tauri-react-frontend@0.0.0 dev
+> tauri-react-frontend@0.0.0 dev /app/tauri-react-frontend
 > vite
-
-sh: 1: vite: not found
